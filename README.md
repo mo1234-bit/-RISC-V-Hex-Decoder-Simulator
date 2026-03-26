@@ -68,3 +68,16 @@ Example:
 00f00293
 01b00313
 006283b3
+```
+## Usage
+```
+python riscv_sim.py input.txt
+```
+You can also pass an output file:
+```
+python riscv_sim.py input.txt output.txt 
+```
+If your tool supports a custom base address, you can use:
+```
+python riscv_sim.py input.txt output.txt 0x1000
+```

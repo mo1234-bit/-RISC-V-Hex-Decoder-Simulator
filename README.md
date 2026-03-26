@@ -81,3 +81,14 @@ If your tool supports a custom base address, you can use:
 ```
 python riscv_sim.py input.txt output.txt 0x1000
 ```
+## Output
+
+The generated report can include:
+
+- static disassembly table
+- execution trace
+- integer register dump
+- floating-point register dump
+- memory side effects
+
+This makes it easier to compare expected architectural behavior against a Verilog core during debug.
